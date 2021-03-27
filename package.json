@@ -1,0 +1,22 @@
+{
+  "name": "frontly",
+  "version": "1.0.0",
+  "description": "Create dynamic web pages with ease",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YodaLightsabr/Frontly.js.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "YodaLightsabr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YodaLightsabr/Frontly.js/issues"
+  },
+  "homepage": "https://github.com/YodaLightsabr/Frontly.js#readme"
+}
