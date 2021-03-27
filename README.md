@@ -43,3 +43,9 @@ Here's the final product:
 
 
 [![Run on replit](https://camo.githubusercontent.com/8e37d97e0cefea4b2a18a1cbdea73d70bcb42a899ab4992166d13cf78c0473bc/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6c756e61726f79737465722f6d616e696d2d7265706c)](https://replit.com/github/YodaLightsabr/FrontlyDemo)
+
+## Syntax
+To escape normal HTML and use dynamic Frontly content, open it up with `<::` and close with `::>`, putting whatever Frontly reference you would like in between. For example, you could do: `<::Frontly.Version::>`, which uses the built in `Frontly.Version` reference. To use a custom reference, use `Frontly.Custom.*`.
+
+## Documentation
+Full docs are coming soon, but it's spring break and it's kind of late so I'll see you next week!
