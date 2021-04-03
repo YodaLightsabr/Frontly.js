@@ -48,4 +48,19 @@ Here's the final product:
 To escape normal HTML and use dynamic Frontly content, open it up with `<::` and close with `::>`, putting whatever Frontly reference you would like in between. For example, you could do: `<::Frontly.Version::>`, which uses the built in `Frontly.Version` reference. To use a custom reference, use `Frontly.Custom.*`.
 
 ## Documentation
-Full docs are coming soon, but it's spring break and it's kind of late so I'll see you next week!
+
+
+### `Frontly`
+ - #### `middleware`
+   - Use as express middleware
+### `res`
+ - #### `sendFrontly`
+   - `file`: The text you want to send
+   - `options`: Options for sending the file
+   - `options.params`: The custom Frontly parameters to pass
+   - Similar to `req.send()`, but you can pass Frontly parameters
+ - #### `sendFileFrontly`
+   - `file`: The file you want to send
+   - `options`: Options for sending the file
+   - `options.params`: The custom Frontly parameters to pass
+   - Similar to `req.sendFile()`, but you can pass Frontly parameters
